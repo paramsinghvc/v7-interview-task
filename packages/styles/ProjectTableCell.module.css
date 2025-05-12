@@ -1,8 +1,16 @@
 .cell {
   padding: 0.5rem;
-  min-width: 300px;
+  min-width: 100px;
   max-width: 500px;
   overflow: hidden;
+}
+
+.cell p {
+	display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  max-height: 100px;
 }
 
 .emptyCell {
